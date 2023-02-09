@@ -1,0 +1,30 @@
+{
+  "name": "pug-test",
+  "version": "1.0.0",
+  "description": "Pug test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^8.0.0",
+    "pug": "^3.0.2",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "mini-css-extract-plugin": "^2.7.2",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "uglifyjs-webpack-plugin": "^2.2.0"
+  }
+}
